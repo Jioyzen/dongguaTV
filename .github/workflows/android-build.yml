@@ -5,6 +5,13 @@ on:
     tags:
       - 'v*.*.*'  # 只在推送版本标签时触发
 
+  workflow_dispatch:      # 添加这一行启用手动触发
+    inputs:
+      version:
+        description: '版本号'
+        required: true
+        default: 'v1.0.0'
+
 jobs:
   build:
     runs-on: ubuntu-latest
