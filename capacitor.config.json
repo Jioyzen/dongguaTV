@@ -1,9 +1,9 @@
 ﻿{
-    "appId": "com.ednovas.donguatv",
-    "appName": "E视界",
+    "appId": "com.xgjy.max",
+    "appName": "星光极影max",
     "webDir": "public",
     "server": {
-        "url": "https://ednovas.video",
+        "url": "http://192.168.2.200:3000",
         "cleartext": true
     },
     "plugins": {
@@ -13,4 +13,5 @@
             "backgroundColor": "#000000"
         }
     }
+
 }
